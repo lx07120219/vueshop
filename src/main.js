@@ -5,6 +5,9 @@ import fastClick from 'fastclick'
 
 fastClick.attach(document.body)
 
+import '@/assets/style/normalize.css';
+// import 'vant/lib/index.css';
+
 Vue.config.productionTip = false
 
 new Vue({
